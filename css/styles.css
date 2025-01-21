@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4cebd;
+    color: #4c3c32;
+}
+
+header {
+    background-color: #ffffffb7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4c3c32;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7e685b;
+}
+
+.hero {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c3c32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #7e685b;
+}
+
+.menu {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #ede4d6;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #4c3c32;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #4c3c32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
