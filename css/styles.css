@@ -43,22 +43,52 @@ nav a:hover {
     color: #7e685b;
 }
 
+/* Hero Section */
 .hero {
-    text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1920') no-repeat center center;
     background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 2rem;
+    animation: fadeInUp 1s ease-out;
 }
 
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cta-button {
