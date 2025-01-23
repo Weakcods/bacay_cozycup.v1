@@ -131,12 +131,52 @@ nav a:hover {
     background-color: #7e685b;
 }
 
+<<<<<<< HEAD
 /* Menu Page */
 .menu-item {
     padding: 1rem;
     border-radius: 8px;
     background-color: var(--menu-bg);
     margin-bottom: 1rem;
+=======
+/* Featured Products */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px var(--shadow);
+    transition: transform 0.3s ease;
+    background-color: var(--card-bg);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    color: var(--card-text);
+}
+
+.card-title {
+    color: var(--text-color);
+}
+
+.card-text {
+    color: var(--card-text);
+}
+
+.price {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu {
+    padding: 100px 0;
+    text-align: center;
+>>>>>>> main
 }
 
 
