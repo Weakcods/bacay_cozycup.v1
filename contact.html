@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact - COZYCUP Coffee House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cup-hot-fill"></i> COZYCUP
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
+    <!-- Contact Content -->
+    <div class="page-content">
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Contact Us</h1>
+
+            <div class="row">
+                <!-- Contact Information -->
+                <div class="col-md-6 mb-4">
+                    <div class="contact-info">
+                        <h2 class="mb-4">Get in Touch</h2>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-geo-alt-fill"></i> Address</h5>
+                            <p>123 Coffee Street<br>Rizal Ave., ST 4321</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-telephone-fill"></i> Phone</h5>
+                            <p>(0022) 800-4000</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-envelope-fill"></i> Email</h5>
+                            <p>sipwithus@cozycup.com</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5><i class="bi bi-clock-fill"></i> Hours</h5>
+                            <p>Monday - Friday: 08:00 AM - 9:00 PM<br>
+                            Saturday - Sunday: 03:00 Pm - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-6 mb-4">
+                    <div class="contact-form">
+                        <h2 class="mb-4">Send us a Message</h2>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
 </body>
 </html>
