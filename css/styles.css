@@ -1,3 +1,30 @@
+/* Global Styles */
+:root {
+    --primary-color: #007bff;
+    --text-color: #333;
+    --bg-color: #fff;
+    --card-bg: #fff;
+    --menu-bg: #f8f9fa;
+    --footer-bg: #343a40;
+    --footer-text: #fff;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --card-text: #333;
+    --navbar-bg: #f8f9fa;
+}
+
+[data-theme="dark"] {
+    --primary-color: #4da3ff;
+    --text-color: #ffffff;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --menu-bg: #1e1e1e;
+    --footer-bg: #1a1a1a;
+    --footer-text: #ffffff;
+    --shadow: rgba(255, 255, 255, 0.1);
+    --card-text: #e1e1e1;
+    --navbar-bg: #1e1e1e;
+}
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
