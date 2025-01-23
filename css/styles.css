@@ -1,3 +1,30 @@
+/* Global Styles */
+:root {
+    --primary-color: #007bff;
+    --text-color: #333;
+    --bg-color: #fff;
+    --card-bg: #fff;
+    --menu-bg: #f8f9fa;
+    --footer-bg: #343a40;
+    --footer-text: #fff;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --card-text: #333;
+    --navbar-bg: #f8f9fa;
+}
+
+[data-theme="dark"] {
+    --primary-color: #4da3ff;
+    --text-color: #ffffff;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --menu-bg: #1e1e1e;
+    --footer-bg: #1a1a1a;
+    --footer-text: #ffffff;
+    --shadow: rgba(255, 255, 255, 0.1);
+    --card-text: #e1e1e1;
+    --navbar-bg: #1e1e1e;
+}
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -104,14 +131,65 @@ nav a:hover {
     background-color: #7e685b;
 }
 
+<<<<<<< HEAD
+/* Menu Page */
+.menu-item {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--menu-bg);
+    margin-bottom: 1rem;
+=======
+/* Featured Products */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px var(--shadow);
+    transition: transform 0.3s ease;
+    background-color: var(--card-bg);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    color: var(--card-text);
+}
+
+.card-title {
+    color: var(--text-color);
+}
+
+.card-text {
+    color: var(--card-text);
+}
+
+.price {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
 .menu {
     padding: 100px 0;
     text-align: center;
+>>>>>>> main
 }
 
-.menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+
+.menu-item h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.menu-item .price {
+    color: var(--primary-color);
 }
 
 .about {
