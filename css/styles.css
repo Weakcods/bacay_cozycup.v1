@@ -25,49 +25,33 @@
     --navbar-bg: #1e1e1e;
 }
 
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #d4cebd;
-    color: #4c3c32;
+    padding-top: 76px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
-header {
-    background-color: #ffffffb7;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+/* Navigation */
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    transition: background-color 0.3s;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--text-color) !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--text-color) !important;
 }
 
 .logo img {
     max-width: 40px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #4c3c32;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #7e685b;
 }
 
 /* Hero Section */
