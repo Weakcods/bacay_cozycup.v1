@@ -131,6 +131,14 @@ nav a:hover {
     background-color: #7e685b;
 }
 
+<<<<<<< HEAD
+/* Menu Page */
+.menu-item {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--menu-bg);
+    margin-bottom: 1rem;
+=======
 /* Featured Products */
 .card {
     border: none;
@@ -168,11 +176,20 @@ nav a:hover {
 .menu {
     padding: 100px 0;
     text-align: center;
+>>>>>>> main
 }
 
-.menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+
+.menu-item h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.menu-item .price {
+    color: var(--primary-color);
 }
 
 .about {
