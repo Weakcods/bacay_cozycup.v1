@@ -32,9 +32,13 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 <img src="https://github.com/Weakcods/bacay_cozycup.v1/blob/f1f06663b1bdebd78f3f1ccc946904765e6bad13/img/joshuab.jpg" width="150" style="border-radius:50%">
 
 **Name**: JOSHUA BACAY  
-**Email**: 202180175@psu.palwan.edu.ph
+**Email**: 202180175@psu.palawan.edu.ph
 
-<img src="https://github.com/yourusername.png" width="150" style="border-radius:50%">
+<img src="https://github.com/Weakcods/bacay_cozycup.v1/blob/608a7f1766ce3b9a25fcba6e4f38538caed989c1/img/noe.jpeg" width="150" style="border-radius:50%">
+
+**Name**: NOE DELA CONCEPTION  
+**Email**: 2020100612bp@psu.palawan.edu.ph
+
 
 
 
