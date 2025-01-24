@@ -53,6 +53,14 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 
 [![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/Github_white.svg)](https://github.com/Imnoah0)
 
+---
+
+
+## 🚀 Live Demo
+[https://weakcods.github.io/bacay_cozycup.v1/](https://weakcods.github.io/bacay_cozycup.v1/)
+
+
+
 
 ---
 <center>
