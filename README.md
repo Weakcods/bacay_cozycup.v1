@@ -39,6 +39,25 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 **Name**: NOE DELA CONCEPTION  
 **Email**: 2020100612bp@psu.palawan.edu.ph
 
+# Social Media
+**Joshua Bacay**
+
+[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/Facebook_white.svg)](https://facebook.com/joshuabacay20)
+
+[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/Github_white.svg)](https://github.com/Weakcods)
 
 
+**Noe Dela Conception**
 
+[![Facebook](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/Facebook_white.svg)](https://facebook.com/noe.delaconception.1)
+
+[![GitHub](https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/White/Github_white.svg)](https://github.com/Imnoah0)
+
+
+---
+<center>
+  
+[![Copyright](https://img.shields.io/badge/Copyright-%C2%A9%202025-blue)](https://github.com/yourusername/yourrepo/)  
+**Cozy Cup Cafe** - Made with Joshua and Noe
+
+</center>
