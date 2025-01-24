@@ -12,7 +12,7 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 
 
 ## Screen Captures
-![Home Page](/img/home_welcome.png)
+![Home Page](https://github.com/Weakcods/bacay_cozycup.v1/blob/c214f14711c78430f7f2ca923ce0f749ce1343a7/img/home_welcome.PNG)
 *Home page with welcome message.*
 
 ![Home Page](/img/home_feat.png)
