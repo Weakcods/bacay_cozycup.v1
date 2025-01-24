@@ -203,6 +203,21 @@ body {
     margin: 0 auto;
 }
 
+/* About Page */
+.team-card img {
+    height: 500px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission-section {
+    background-color: var(--menu-bg);
+    padding: 4rem 0;
+    margin: 2rem 0;
+}
+
+
 .contact {
     padding: 100px 0;
     text-align: center;
