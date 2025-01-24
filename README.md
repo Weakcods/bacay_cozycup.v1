@@ -12,10 +12,10 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 
 
 ## Screen Captures
-![Home Page](./img/c1.png)
+![Home Page](/img/home_welcome.png)
 *Home page with welcome message.*
 
-![Home Page](./img/c2.png)
+![Home Page](/img/home_feat.png)
 *Home page with featured products.*
 
 ![Menu Page](./img/c3.png)
