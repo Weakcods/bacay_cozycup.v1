@@ -15,19 +15,26 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 ![Home Page](https://github.com/Weakcods/bacay_cozycup.v1/blob/c214f14711c78430f7f2ca923ce0f749ce1343a7/img/home_welcome.PNG)
 *Home page with welcome message.*
 
+
 ![Home Page](https://github.com/Weakcods/bacay_cozycup.v1/blob/d6a08ca84968a765e6ecdd855350de2c291dfaf3/img/home_feat.PNG)
 *Home page with featured products.*
 
+
 ![Menu Page](https://github.com/Weakcods/bacay_cozycup.v1/blob/d6a08ca84968a765e6ecdd855350de2c291dfaf3/img/c3.PNG)
 *Menu page with display price & pictures.*
+
 
 ![About Us Page](https://github.com/Weakcods/bacay_cozycup.v1/blob/d6a08ca84968a765e6ecdd855350de2c291dfaf3/img/c4.PNG)
 *About Us page with display interactive location of the shop.*
 
 
+## About the Authors
+<img src="https://github.com/Weakcods/bacay_cozycup.v1/blob/f1f06663b1bdebd78f3f1ccc946904765e6bad13/img/joshuab.jpg" width="150" style="border-radius:50%">
 
+**Name**: JOSHUA BACAY  
+**Email**: 202180175@psu.palwan.edu.ph
 
-
+<img src="https://github.com/yourusername.png" width="150" style="border-radius:50%">
 
 
 
