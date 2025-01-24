@@ -57,7 +57,7 @@ Cozy Cup Cafe is a responsive website for a local café, showcasing menu items, 
 ---
 <center>
   
-[![Copyright](https://img.shields.io/badge/Copyright-%C2%A9%202025-blue)](https://github.com/yourusername/yourrepo/)  
+[![Copyright](https://img.shields.io/badge/Copyright-%C2%A9%202025-blue)](https://github.com/Weakcods/bacay_cozycup.v1)  
 **Cozy Cup Cafe** - Made with Joshua and Noe
 
 </center>
