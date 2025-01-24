@@ -33,6 +33,16 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+
+/* Theme Toggle */
+.theme-toggle {
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border: none;
+    background: none;
+    color: var(--text-color);
+}
 /* Navigation */
 .navbar {
     background-color: var(--navbar-bg) !important;
